@@ -18,11 +18,11 @@
 	<distributionManagement>
   <repository>
     <id>packagecloud-patrickdijkwel</id>
-    <url>packagecloud+https://packagecloud.io/patrickdijkwel/friendspammer-helper</url>
+    <url>https://packagecloud.io/patrickdijkwel/friendspammer-helper</url>
   </repository>
   <snapshotRepository>
     <id>packagecloud-patrickdijkwel</id>
-    <url>packagecloud+https://packagecloud.io/patrickdijkwel/friendspammer-helper</url>
+    <url>https://packagecloud.io/patrickdijkwel/friendspammer-helper</url>
   </snapshotRepository>
 </distributionManagement>
   
