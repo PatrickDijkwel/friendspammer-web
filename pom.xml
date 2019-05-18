@@ -15,6 +15,17 @@
     </repository>
   </repositories>
   
+	<distributionManagement>
+  <repository>
+    <id>packagecloud-patrickdijkwel</id>
+    <url>packagecloud+https://packagecloud.io/patrickdijkwel/friendspammer-helper</url>
+  </repository>
+  <snapshotRepository>
+    <id>packagecloud-patrickdijkwel</id>
+    <url>packagecloud+https://packagecloud.io/patrickdijkwel/friendspammer-helper</url>
+  </snapshotRepository>
+</distributionManagement>
+  
   <groupId>nl.hu.bep.app</groupId>
   <artifactId>friendspammer-web</artifactId>
   <packaging>war</packaging>
