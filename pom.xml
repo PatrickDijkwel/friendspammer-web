@@ -4,7 +4,7 @@
   
   <repositories>
     <repository>
-      <id>patrickdijkwel-friendspammer-helper</id>
+      <id>patrickdijkwel-patrickdijwkel</id>
       <url>https://packagecloud.io/priv/${bbab53e4d8bdd17d9ce5de33dc5898375316788b7d062c27}/patrickdijkwel/friendspammer-helper/maven2</url>
       <releases>
         <enabled>true</enabled>
