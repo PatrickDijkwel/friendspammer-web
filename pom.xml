@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   
-    <repositories>
+  <repositories>
     <repository>
       <id>patrickdijkwel-friendspammer-helper</id>
-      <url>https://packagecloud.io/priv/${6df283e5e1c76d156ed1771912bd54b9aff8d33b1d389f6d}/patrickdijkwel/friendspammer-helper/maven2</url>
+      <url>https://packagecloud.io/priv/${token}/patrickdijkwel/friendspammer-helper/maven2</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -32,10 +32,10 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-  <groupId>nl.hu.bep.app</groupId>
-  <artifactId>friendspammer-helper</artifactId>
-  <version>1.0-SNAPSHOT</version>
-</dependency>
+  	  <groupId>nl.hu.bep.app</groupId>
+  	  <artifactId>friendspammer-helper</artifactId>
+  	  <version>1.0-SNAPSHOT</version>
+	</dependency>
   </dependencies>
   <build>
     <finalName>friendspammer-web</finalName>
@@ -49,12 +49,5 @@
 			</configuration>
 		</plugin>
 	</plugins>
-	<extensions>
-		<extension>
-			<groupId>io.packagecloud.maven.wagon</groupId>
-	    	<artifactId>maven-packagecloud-wagon</artifactId>
-	    	<version>0.0.6</version>
-		</extension>
-	</extensions>
   </build>
 </project>
