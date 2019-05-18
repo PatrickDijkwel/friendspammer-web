@@ -5,7 +5,7 @@
   <repositories>
     <repository>
       <id>patrickdijkwel-friendspammer-helper</id>
-      <url>https://packagecloud.io/priv/${token}/patrickdijkwel/friendspammer-helper/maven2</url>
+      <url>https://packagecloud.io/priv/${bbab53e4d8bdd17d9ce5de33dc5898375316788b7d062c27}/patrickdijkwel/friendspammer-helper/maven2</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -14,17 +14,6 @@
       </snapshots>
     </repository>
   </repositories>
-  
-	<distributionManagement>
-  <repository>
-    <id>packagecloud-patrickdijkwel</id>
-    <url>https://packagecloud.io/patrickdijkwel/friendspammer-helper</url>
-  </repository>
-  <snapshotRepository>
-    <id>packagecloud-patrickdijkwel</id>
-    <url>https://packagecloud.io/patrickdijkwel/friendspammer-helper</url>
-  </snapshotRepository>
-</distributionManagement>
   
   <groupId>nl.hu.bep.app</groupId>
   <artifactId>friendspammer-web</artifactId>
